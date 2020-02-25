@@ -1,0 +1,6 @@
+ sudo yum install mariadb-server
+ sudo systemctl enable mariadb
+ sudo systemctl start mariadb
+ sudo mysql_secure_installation
+follow the below link
+https://www.linode.com/docs/databases/mariadb/how-to-install-mariadb-on-centos-7/
